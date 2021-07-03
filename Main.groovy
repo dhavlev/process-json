@@ -51,7 +51,3 @@ class ProcessJson{
     }
 }
 
-/*
-groovy Main.groovy -j '{"tech":"node","labels":{"micro-service":"workflowagent"},"deployment":{"image":{"sleep":5,"pullSecrets":"gcpdev01aksacr","registry":"gcpdevacr.azurecr.io","repository":"digital/dotcom/workflowagent","args":["export PORT=3000 && node dist/index.js"],"tag":"296"},"containerPort":3000,"resources":{"limits":{"cpu":"300m","memory":"512Mi"},"requests":{"cpu":"250m","memory":"256Mi"}}}}' -k 'deployment/resources/limits'
-*/
-
