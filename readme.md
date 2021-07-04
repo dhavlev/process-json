@@ -2,7 +2,7 @@
 A tiny utility extracts value against supplied key
 
 ## How it works
-1. A user supplied and json and key
+1. A user supplies a json string and a key
 2. Output is a value against the key
 
 ## Usage
